@@ -63,10 +63,10 @@
 
 ```html
 # 블록 요소
-<div>, <p>, <h1~h6>, <ol>, <ul>, <li>, <dl>, <dt>, <dd>
+<div>, <p>, <h1>~<h6>, <ol>, <ul>, <li>, <dl>, <dt>, <dd>
 
 # 인라인 요소
-<a>, <img>, <span>, <strong>, <em>, <button>
+<a>, <img>, <span>, <strong>, <em>, <button>, <input>, <label>, <br>, <abbr>, <script>, <time> ...
 ```
 
 #### 3-4-1. 블록 요소 특징
