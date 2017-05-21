@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Study</title>
+  <style>
+  
+  .title {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  button {
+    padding: 0;
+    border-style: none;
+    width: 130px;
+    height: 300px;
+    background-color: #000;
+    color: #fff;
+  }
+
+  </style>
+</head>
+<body>
+  <div></div> <!-- 블록 요소를 묶을때 사용 -->
+  
+  <span>  <!-- 인라인 요소 묶을때 사용 -->
+    <a href="http://naver.com">naver</a>
+    <img src="../asset/album_cover.jpg" alt="hillsong united's album cover" style="width: 140px">
+  </span>
+
+<div>
+  <ol> <!-- 순서형 목록 -->
+    <h1 class="title">황초롱이 중요하게 생각하는 가치</h1>
+    <li>예수님</li>
+    <li>가족</li>
+    <li>세철이</li>
+  </ol>
+</div>  
+
+<div>
+  <ul> <!-- 비순서형 목록 -->
+    <h1>황초롱이 좋아하는 음식</h1>
+    <li>고기</li>
+    <li>커피</li>
+    <li>당근</li>
+  </ul>
+</div>  
+
+<div class="chorongFeature">
+  <dl> <!-- 정의형 목록 -->
+    <dt>황초롱의 특징</dt>
+      <dd>키가 작다</dd>
+      <dd>면을 좋아한다</dd>
+    <dt>황초롱의 장점</dt>
+      <dd>밥을 잘먹는다</dd>
+      <dd>밝다</dd>
+  </dl>
+</div>
+
+  <figure>
+    <img src="../asset/album_cover.jpg" alt="" style="width: 140px">
+    <figcaption>album cover</figcaption>
+  </figure>
+
+  <table></table>
+
+  <button>button</button>
+
+  <fieldset>
+    <legend></legend>
+    <label for="user-id"></label><input id="user-id" type="text" placeholder="">
+    <label for="user-pw"></label><input id="user-pw" type="text" placeholder="">
+  </fieldset>
+</body>
+</html>
