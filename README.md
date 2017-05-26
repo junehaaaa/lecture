@@ -28,3 +28,19 @@
 - 비디오 및 오디오 `<video>`, `<audio>`, `<source>`, `<track>`
 - 표 관련 요소 `<table>`, `<tr>`, `<th>`, `<td>`
 - 폼 관련 요소 `<form>`, `<filedset>`, `<legend>`, `<label>`, `<input>`, `<button>`
+
+## CSS 
+
+### 1주차
+- 선택자 / 요소 선택자, 가상 선택자, id 선택자, class 선택자, 전체선택자
+- font & text / `@font-face`, `font-family`, `font-weight`, `font-style`, `font-size`, `line-height`, `text-transform`, `white-space`, `text-align`, `text-indent`, `text-decoration`, `text-shadow`
+- 박스 모델 / `display`, `padding`, `margin`, `border`, `overflow`
+- 색상 및 배경 / `background-image`, `liner-gradient`, `background-repeat`, `background-repeat`, `background-position`, `background-size`
+- 테두리 / `border`, `border-width`, `border-style`, `border-color`, `border-radius`, `box-shadow`
+
+### 2주차
+- Float
+- Clear
+- Position
+- Transform
+- Flex Box
